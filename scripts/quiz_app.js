@@ -3,7 +3,16 @@ const submit =document.querySelector(".submit");
 const scoredisplay = document.querySelector(".score-display");
 
 const correctAnswers = [
-    "40*"
+    "90°",
+    "right angled",
+    "one right angle",
+    "12, 16, 20",
+    "Equilateral triangle",
+    "100°",
+    "30°",
+    "a + b + c",
+    "no",
+    "45°",
 ]
 
 submit.addEventListener("click",()=>{
