@@ -1,8 +1,16 @@
-nav{
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+.nav-bar{
+    background-color:#00BFA6;
+    color: white;
     display: block;
     margin-block-end: 0rem;
     margin-inline-start: 0rem;
+}
+.nav-bar .heading{
+    background-color: #00BFA6;
+    color: white;
+    margin: 0rem 0rem;
+    padding: 1rem;
 }
 .nav-bar ul {
     list-style: none;
@@ -11,14 +19,38 @@ nav{
 .nav-bar .nav-list li{
     display: inline;
     padding: 0.5rem 1rem;
-    
 }
 .link-active{
     font-weight: bold;
+    color: white;
+}
+
+.link-inactive{
+    color: white;
 }
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 50%;
-    margin-left: 15rem;
+    margin: 3rem 20rem;
+    border: 0.3rem solid #00BFA6 ;
+    background-color: white;
+    padding-left: 0.5rem;
+}
+body{
+    margin: 0rem 0rem;
+    background-color: blanchedalmond;
+    font-family: 'Oxygen', sans-serif;
+}
+.submit{
+    margin-top: 0.5rem;
+}
+
+p{
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+.output{
+    margin: 1rem;
 }

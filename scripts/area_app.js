@@ -23,7 +23,7 @@ button.addEventListener("click",()=>{
             (semiPerimeter - firstSideValue) *
             (semiPerimeter - secondSideValue) *
             (semiPerimeter - thirdSideValue)
-        );
+        ).toFixed(4);
         output.innerText = "Area of a triangle using heron's formula is "+ result +" units";
       } else {
         output.innerText = "Enter valid side lengths such that each side lengths";
