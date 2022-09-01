@@ -9,6 +9,10 @@ button.addEventListener("click",()=>{
     var firstSideValue = Number(Side1.value);
     var secondSideValue = Number(Side2.value);
     var thirdSideValue = Number(Side3.value);
+    if(firstSideValue <=0 || secondSideValue <=0 || thirdSideValue <=0){
+      output.innerText = "Invalid values";
+  }
+  else{
 
     if (
         firstSideValue + secondSideValue > thirdSideValue &&
@@ -28,4 +32,5 @@ button.addEventListener("click",()=>{
       } else {
         output.innerText = "Enter valid side lengths such that each side lengths";
       }
+  }
 })
