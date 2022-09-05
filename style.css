@@ -88,3 +88,9 @@ p{
     display: inline;
     padding: 0rem 2rem;
 }
+
+/* images */
+.img-footer{
+    height: 40px;
+    width: 40px;
+}
